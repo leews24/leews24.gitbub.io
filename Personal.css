@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body {
+  font: 20px Noto Sans CJK KR, sans-serif;
+  font-weight: 200;
+  margin-top: 40px;
+  padding:0px
+}
+
+div {
+  display: block;
+}
+
+a {
+  color: #14213D
+}
+
+a:hover {
+  color: #FCA311;
+}
+
+.bg2 {
+  background-color: #E5E5E5;
+  color: #14213D;
+}
+
+.navbar-left li a{
+  font-weight: 600
+}
+
+.navbar-nav li a {
+  color: #161616;
+}
+
+.navbar-nav li a:hover {
+  color: #FCA311;
+  background-color: #FFFFFF
+}
+
+.navbar-nav li a:visited {
+  background-color: #FFFFFF
+}
+
+/*.banner{
+  background-image: url("vio_cropped.jpg");
+  background-repeat:no-repeat;
+  height:500px;
+  background-size: contain;
+}
+
+#banner_text{
+  position: relative;
+  height:25%;
+  top:75%;
+  right:0;
+}*/
+
+#banner {
+  width:100%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 10.19vw;
+  font-weight: 900;
+}
+
+.resume {
+  text-align: center;
+  background-color: #000000;
+  /*color: #FFF*/
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerc {
+  padding: 7px 2px 0px 2px;
+}
