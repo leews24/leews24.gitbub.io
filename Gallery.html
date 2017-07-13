@@ -14,7 +14,7 @@
   <!-- <nav class="navbar navbar-default bg4"> -->
   <nav class="navbar">
     <div class="container">
-      <ul class="nav navbar-nav navbar-left">
+      <ul class="nav navbar-nav navbar-left lefty">
         <li><a href=index.html>Warren Lee</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -26,8 +26,29 @@
       </div>
   </nav>
 
-  <p id="demo">PORTFOLIO WILL GO HERE SITE UNDER CONSTRUCTION<p/>
-  <button type="button" class="btn-secondary" onclick='document.getElementById("demo").innerHTML = "Still under construction!"'>Click me!</button>
+  <section class="container gallery">
+      <div class="row text-center">
+        <div class="col-sm-2 text-center">
+          <a href="javascript:void(0)"><button type="button" class="btn-gallery" id="gal-left" onclick="left();"><span class="glyphicon glyphicon-chevron-left"></button></a>
+        </div>
+        <div class="col-sm-8">
+          <img id="v-img" src="galleryres/a.png">
+        </div>
+        <div class="col-sm-2 text-center">
+          <a href="javascript:void(0)"><button type="button" class="btn-gallery" id="gal-left" onclick="right();"><span class="glyphicon glyphicon-chevron-right"></button></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="c-container text-center">
+          <a href="javascript:void(0)"><img class="img-c" id="img-c0" onclick="select('img-c0');" src="galleryres/a.png"></a>
+          <a href="javascript:void(0)"><img class="img-c" id="img-c1" onclick="select('img-c1');" src="galleryres/b.png"></a>
+          <a href="javascript:void(0)"><img class="img-c" id="img-c2" onclick="select('img-c2');" src="galleryres/c.jpg"></a>
+          <a href="javascript:void(0)"><img class="img-c" id="img-c3" onclick="select('img-c3');" src="galleryres/d.png"></a>
+          <a href="javascript:void(0)"><img class="img-c" id="img-c4" onclick="select('img-c4');" src="galleryres/e.jpg"></a>
+        </div>
+      </div>
+  </section>
+
   <footer class="footer bg2 footerc">
     <div class="container-fluid">
       <p class="pull-right">&copy; Won Seok Lee, 2017</p>
@@ -37,9 +58,11 @@
       </div>
     </div>
   </footer>
-  
+
+  <script src='Personal.js'></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 </body>
