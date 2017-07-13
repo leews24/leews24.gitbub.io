@@ -1,8 +1,8 @@
-var galpics = ["file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/galleryres/a.png"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/galleryres/b.png"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/galleryres/c.jpg"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/galleryres/d.png"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/galleryres/e.jpg"];
+var galpics = ["https://leews24.github.io/warrenlee/galleryres/a.png"
+,"https://leews24.github.io/warrenlee/galleryres/b.png"
+,"https://leews24.github.io/warrenlee/galleryres/c.jpg"
+,"https://leews24.github.io/warrenlee/galleryres/d.png"
+,"https://leews24.github.io/warrenlee/galleryres/e.jpg"];
 
 var img = document.getElementById("v-img").src;
 
