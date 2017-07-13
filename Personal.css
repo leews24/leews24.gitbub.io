@@ -41,6 +41,11 @@ a:hover {
   background-color: #FFFFFF
 }
 
+.lefty li a{
+  padding-left: 0px;
+}
+
+/*CSS for old banner*/
 /*.banner{
   background-image: url("vio_cropped.jpg");
   background-repeat:no-repeat;
@@ -66,10 +71,21 @@ h1 {
   font-weight: 900;
 }
 
-.resume {
-  text-align: center;
-  background-color: #000000;
-  /*color: #FFF*/
+.btn-resume {
+  text-decoration: none;
+  background-color: #FCA311;
+  border: none;
+  color: #FFF;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid #FCA311;
+  -webkit-transition-duration: 0.4s;
+  margin-top: 20px
+}
+
+.btn-resume:hover {
+  background-color: #FFF;
+  border: 1px solid #FCA311;
+  color: #FCA311;
 }
 
 .footer {
@@ -80,4 +96,46 @@ h1 {
 
 .footerc {
   padding: 7px 2px 0px 2px;
+}
+
+.gallery {
+  /*background-color: #D3D3D3;*/
+}
+
+#v-img {
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.btn-gallery {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid #FCA311;
+  -webkit-transition-duration: 0.4s;
+  margin-top: 200px;
+  height: 100px;
+  width: 100px;
+}
+
+.btn-gallery:hover {
+  background-color: #FCA311;
+  border: 1px solid #FCA311;
+  color: #D3D3D3;}
+
+.hcenter {
+  width:20px;
+  margin: auto;
+}
+
+.c-container{
+  margin: 15px;
+}
+
+.img-c {
+  height:100px;
+  width:100px;
+  margin: 15px
 }
