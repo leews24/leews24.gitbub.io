@@ -2,7 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title="Warren Lee">
+  <title>WARREN LEE</title>
+  <link rel="SHORTCUT ICON" href="favicon.ico"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,100i,300,400,500,700,900,300i,400i,500i,700i,900i" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,10 +26,10 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="navbar-custom" href=Portfolio.html>Portfolio</a></li>
-          <li><a class="navbar-custom" href=Music.html>Music</a></li>
-          <li><a class="navbar-custom" href=Gallery.html>Gallery</a></li>
-          <li><a class="navbar-custom" href=Contact.html>Contact Me</a></li>
+          <li><a class="navbar-custom" href="#anchora" rel="" id="anchor">About Me</a></li>
+          <li><a class="navbar-custom" href="#anchorv" rel="" id="anchor">Visual</a></li>
+          <li><a class="navbar-custom" href="#anchorm" rel="" id="anchor">Music</a></li>
+          <li><a class="navbar-custom" href="#anchorc" rel="" id="anchor">Contact Me</a></li>
         </ul>
       </div>
     </div>
@@ -55,46 +56,81 @@
     </section> -->
 
     <section class="container" style="margin-top:100px;">
-      <div class="col-sm-12 banner defmargin">
-        <div class="htext">
-          <h1 class="htextacenter"> Warren Lee </h1>
+      <div class="col-sm-12 defmargin banner-grandparent">
+        <div class="banner-parent">
+
+          <div class="banner-child">
+            <h1 class="banner-baby banner-text">Warren Lee</h1>
+            <ol class="banner-baby indicators list-inline list-unstyled">
+              <li><a href="javascript:void(0)" id="bannerimg-0" onclick="bannerselect(0);"><div id="indicator0" class="indicatorid circle-selected"></div></a></li>
+              <li><a href="javascript:void(0)" id="bannerimg-1" onclick="bannerselect(1);"><div id="indicator1" class="indicatorid circle"></div></a></li>
+              <li><a href="javascript:void(0)" id="bannerimg-2" onclick="bannerselect(2);"><div id="indicator2" class="indicatorid circle"></div></a></li>
+              <li><a href="javascript:void(0)" id="bannerimg-3" onclick="bannerselect(3);"><div id="indicator3" class="indicatorid circle"></div></a></li>
+              <li><a href="javascript:void(0)" id="bannerimg-4" onclick="bannerselect(4);"><div id="indicator4" class="indicatorid circle"></div></a></li>
+            </ol>
+          </div>
+
         </div>
-        <img src="vio.jpg" class="img-responsive bannerimg">
+        <div>
+          <img id="bannerimg-v" src="thumbnails/0.jpg" class="img-responsive bannerimg">
+          <!-- <img id="bannerimg-v" src="thumbnails/a.png" class="img-responsive bannerimg"> -->
+        </div>
       </div>
     </section>
 
-    <section class="container">
+
+    <section class="container" id="anchora">
       <div class="row eqheightrows">
         <div class = "col-sm-4 text-center content vcenter borders">
             <h2>Who am I?</h2>
+            <a href="WonSeokLee_Resume6_7.pdf" target="_blank"><button type="button" class="btn-custom btn-resume">Resume</button></a>
         </div>
-        <div class="col-sm-4 content borders">
-          <p style="text-align:center;">My name is Warren Lee and I am an aspiring UX Designer at the University of Michigan School of Information! I am also the Media Director at Sinaboro, a Traditional Korean Drumming Club. I have experience in marketing related graphic work, video production, and music production as well. Feel free to check out my work and contact me!</p>
+        <div class="col-sm-8 content borders">
+          <p>My name is Warren Lee and I am an aspiring UX Designer at the University of Michigan School of Information! I am also the Media Director at Sinaboro, a Traditional Korean Drumming Club. I have experience in marketing related graphic work, video production, and music production as well. Feel free to check out my work and contact me!</p>
         </div>
-        <div class="col-sm-4 content borders text-center">
-          <a href="WonSeokLee_Resume6_7.pdf" target="_blank"><button type="button" class="btn-custom btn-resume">Resume</button></a>
-        </div>
+        <!-- <div class="col-sm-4 content borders text-center"> -->
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="anchorv">
       <div class="row eqheightrows">
         <div class = "col-sm-8 text-center content">
           <div class="embed-responsive embed-responsive-16by9">
           <iframe class="contained-img" src="https://www.youtube.com/embed/S9pwUPgOt0o?showinfo=0&controls=0&loop=1&rel=0&disablekb=0" frameborder="0" allowfullscreen></iframe>
           <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLamM06AU6NQ2-__xfi4H4yrtE3ojOniMA" showinfo=0 controls=0 frameborder="0" allowfullscreen></iframe> -->
-        </div>
+          </div>
         </div>
         <div class = "col-sm-4 text-center content vcenter">
           <h2 class="">Visual Production</h2>
+          <button type="button" class="btn-custom btn-resume" data-toggle="collapse" data-target="#morevid">More</button>
+        </div>
+      </div>
+      <div class="collapse" id="morevid">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="contained-img" src="https://www.youtube.com/embed/FNhrc19S9sM?showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="contained-img" src="https://www.youtube.com/embed/FNhrc19S9sM?showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="contained-img" src="https://www.youtube.com/embed/Mu7hrPLjZ9s?showinfo=0&controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="anchorm">
       <div class="row eqheightrows">
         <div class = "col-sm-4 text-center content">
           <h2>Music Production</h2>
+          <button type="button" class="btn-custom btn-resume" data-toggle="collapse" data-target="#moremus">More</button>
         </div>
         <div class="col-sm-8 content">
           <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323988274&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
@@ -102,13 +138,31 @@
           </div>
         </div>
       </div>
+      <div class="collapse" id="moremus">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281720829&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/324491396&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329892391&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="anchorc">
       <div class="row eqheightrows">
         <div class = "col-sm-12 text-center content">
           <p>Interested in talking to me?<br>Feel free to contact me!</p>
-          <a href="mailto:wwslee@umich.edu" target="_blank"><button type="button" class="btn-custom btn-resume" style="margin-top:15px;">Email</button></a>
+          <a href="mailto:wwslee@umich.edu" target="_blank">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size:50px;"></span></a>
         </div>
       </div>
     </section>
@@ -119,12 +173,13 @@
         <p class="pull-right">&copy; Won Seok Lee, 2017</p>
         <div class="pull-left">
           <a href="mailto:wwslee@umich.edu" target="_blank">
-          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
         </div>
       </div>
     </footer>
 
-
+  <script src='banner.js'></script>
+  <script src='personal.js'></script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
