@@ -1,8 +1,8 @@
-var bannerpics = ["file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/thumbnails/0.jpg"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/thumbnails/a.png"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/thumbnails/b.png"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/thumbnails/c.png"
-,"file:///C:/Users/Warren/Documents/WebDev/personal%20web/personalweb/thumbnails/d.png"];
+var bannerpics = ["https://leews24.github.io/warrenlee/thumbnails/0.jpg"
+,"https://leews24.github.io/warrenlee/thumbnails/a.png"
+,"https://leews24.github.io/warrenlee/thumbnails/b.png"
+,"https://leews24.github.io/warrenlee/thumbnails/c.png"
+,"https://leews24.github.io/warrenlee/thumbnails/d.png"];
 
 // var img = document.getElementById("bannerimg-v").src;
 
